@@ -1,0 +1,152 @@
+@media all and (max-width: 991px){
+	.menu-icon {
+		display: block  !important;
+	}
+
+	.menu-items {
+		display: none;
+		position: absolute; 
+		width: 100%;
+		left: 0;
+		top: 100%;
+		background: #345DEE; 
+		padding: 2rem 0;
+	}
+	.menu-items .menu ul{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.menu ul li.active a{
+		color: #FFF
+	}
+	.menu ul li a{
+		color: #FFF;
+		padding: 5px 0;
+	}
+	.banner-right{
+		margin-top: 5rem;
+		text-align: center;
+	}
+
+	/*Passion Area*/
+	.passion-image img{
+		max-width: 100%;
+		width: 90%;
+	}
+	.passion-single-row .passion-content{
+		margin-bottom: 5rem;
+	}
+	.passion-single-row:nth-child(odd) .col-md-6:last-child{
+		-webkit-box-ordinal-group: 0;
+		    -ms-flex-order: -1;
+		        order: -1;
+	}
+	.passion-single-row:nth-child(odd) .passion-content{
+		float: none;
+	}
+
+	.passion-single-row:nth-child(even) .passion-image{
+		text-align: left;
+	}
+
+	/*Team Members*/
+	.single-member{
+		margin-bottom: 3rem;
+	}
+
+	/*Apps */
+	.apps-carousel .owl-nav .owl-prev{
+		left: -2rem;
+	} 
+	.apps-carousel .owl-nav .owl-next{
+		right: -2rem;
+	}
+
+	/*Footer*/
+	.single-footer-item{
+		margin-bottom: 3rem;
+	}
+	.social-icons{
+		margin-top: 3rem;
+	}
+	.social-icons ul{
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+
+}
+
+
+@media all and (max-width: 570px){
+
+ 	/*Header Top */
+	.header-buttons a{
+		display: none;
+	}
+	.menu-icon {
+		margin-right: 1rem
+	}
+
+	/*Banner */
+
+	h1{
+		font-size: 4.5rem;
+	}
+	.banner-left h1 {
+		max-width: 40rem;
+		margin-bottom: 2rem;
+	}
+	.subscribe-form form { 
+		-webkit-box-pack: inherit; 
+		    -ms-flex-pack: inherit; 
+		        justify-content: inherit;
+		-webkit-box-align: inherit;
+		    -ms-flex-align: inherit;
+		            -ms-grid-row-align: inherit;
+		        align-items: inherit;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.subscribe-form form input[type="email"],
+	.subscribe-form form input[type="submit"]{
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 0 100%;
+		        flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.subscribe-form form input[type="submit"]{
+		margin-top: 1rem;
+	}
+	.banner-right img {
+		max-width: 80%;
+	}
+	.banner-left > p{
+		font-size: 1.6rem;
+	}
+
+	/*Passion Area*/
+	h2 { 
+		font-size: 3rem;
+		line-height: 3rem;
+	}
+	h3{
+		font-size: 2.7rem;
+	}
+	.passion-content p {
+		padding-right: 0;
+	}
+
+	/*Apps */
+	.apps-carousel .owl-nav .owl-prev{
+		left: 1rem;
+	} 
+	.apps-carousel .owl-nav .owl-next{
+		right: 1rem;
+	}
+
+}
